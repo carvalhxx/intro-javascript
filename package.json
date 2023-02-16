@@ -10,11 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/carvalhxx/intro-javascript.git"
   },
-  "keywords": ["Introdução javascript"],
+  "keywords": [
+    "Introdução javascript"
+  ],
   "author": "Kayky Carvalho",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/carvalhxx/intro-javascript/issues"
   },
-  "homepage": "https://github.com/carvalhxx/intro-javascript#readme"
+  "homepage": "https://github.com/carvalhxx/intro-javascript#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
