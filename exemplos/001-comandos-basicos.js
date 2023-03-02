@@ -36,3 +36,4 @@ console.log('Variável Endereço = ' + typeof(endereco));
 console.log('Variável dengue = ' + typeof(dengue));
 console.log('Variável covid = ' + typeof(covid));
 console.log('Variável exfunc = ' + typeof(exfunc));
+
