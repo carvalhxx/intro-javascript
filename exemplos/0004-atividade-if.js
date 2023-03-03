@@ -6,26 +6,26 @@
 
 let entrada = require('prompt-sync')();
 
-let nota1 =entrada('Digite a primeira nota: ');
+let n1 = entrada('Digite a primeira nota: ');
 
-let nota2 =entrada('Digite a segunda nota: ');
+let n2 = entrada('Digite a segunda nota: ');
+
+let nota1 = parseInt(n1)
+let nota2 = parseInt(n2)
 
 let summ = nota1 + nota2;
 
-let divs = summ /2;
+let media = summ /2;
 
-if (divs <5) {
+if (media <5) {
     console.log('Sua nota é: I');
-}
-
-else if (divs >= 5 && divs <6.5) {
+}else if
+    (media >= 5 && media <6.5) {
     console.log('Sua nota é: R');
-}
-
-else if (divs > 6.5 && divs < 8.5){
+}else if 
+    (media >= 6.5 && media <8.5){
     console.log('Sua nota é: B');
-}
-
-else if(divs > 8.5) {
+}else if
+    (media >8.5) {
     console.log('Sua nota é: MB');
 }
